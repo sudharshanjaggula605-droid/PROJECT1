@@ -1,0 +1,37 @@
+body{
+    background-color: #0d1321;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #000814;
+    color: white;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+}
+.heromarquee{
+    background-image: url("https://img.freepik.com/free-vector/shiny-film-negative-cinema-background-with-text-space_1017-52787.jpg?semt=ais_incoming&w=740&q=80") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.sideheading{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    /* background-color: #081c15; */
+    color: whitesmoke;
+}
+.Latestmovies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    padding: 0px 0px 0px 30px;
+}
+img{
+    border-radius: 10px;
+
+}
