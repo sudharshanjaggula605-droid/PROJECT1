@@ -91,6 +91,7 @@ button,
 a{
     color: whitesmoke;
 }
+
 @media (max-width: 1024px) {
     h1 {
         font-size: 42px;
